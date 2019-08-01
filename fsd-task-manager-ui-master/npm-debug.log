@@ -1,0 +1,117 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   '@angular/cli@6.11.4' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.4
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData @angular/cli@6.11.4
+8 silly fetchNamedPackageData @angular/cli
+9 silly mapToRegistry name @angular/cli
+10 silly mapToRegistry scope (from package name) @angular
+11 verbose mapToRegistry no registry URL found in name for scope @angular
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry data Result {
+14 silly mapToRegistry   raw: '@angular/cli',
+14 silly mapToRegistry   scope: '@angular',
+14 silly mapToRegistry   escapedName: '@angular%2fcli',
+14 silly mapToRegistry   name: '@angular/cli',
+14 silly mapToRegistry   rawSpec: '',
+14 silly mapToRegistry   spec: 'latest',
+14 silly mapToRegistry   type: 'tag' }
+15 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcli
+16 verbose get https://registry.npmjs.org/@angular%2fcli not expired, no request
+17 silly fetchNamedPackageData No valid target from cache, forcing network
+18 verbose request uri https://registry.npmjs.org/@angular%2fcli
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 4:29:27 PM
+21 verbose request id 6f02807fea4f8ed2
+22 http request GET https://registry.npmjs.org/@angular%2fcli
+23 http 200 https://registry.npmjs.org/@angular%2fcli
+24 verbose headers { date: 'Tue, 16 Jul 2019 10:59:09 GMT',
+24 verbose headers   'content-type': 'application/json',
+24 verbose headers   'transfer-encoding': 'chunked',
+24 verbose headers   connection: 'keep-alive',
+24 verbose headers   'set-cookie': [ '__cfduid=decd5e2dfce9247d4b41023faf0016bfd1563274749; expires=Wed, 15-Jul-20 10:59:09 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+24 verbose headers   'cf-cache-status': 'HIT',
+24 verbose headers   'cache-control': 'public, max-age=300',
+24 verbose headers   'cf-ray': '4f73770eecd3d5fc-BOM',
+24 verbose headers   age: '400',
+24 verbose headers   etag: 'W/"5cf668e0653f59e20d4c4a532dfe98aa"',
+24 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+24 verbose headers   'last-modified': 'Wed, 10 Jul 2019 17:51:08 GMT',
+24 verbose headers   vary: 'Accept-Encoding',
+24 verbose headers   'x-amz-meta-rev': '412-2350029f7b2c689454791c1b26c59862',
+24 verbose headers   server: 'cloudflare',
+24 verbose headers   'content-encoding': 'gzip' }
+25 silly get cb [ 200,
+25 silly get   { date: 'Tue, 16 Jul 2019 10:59:09 GMT',
+25 silly get     'content-type': 'application/json',
+25 silly get     'transfer-encoding': 'chunked',
+25 silly get     connection: 'keep-alive',
+25 silly get     'set-cookie': [ '__cfduid=decd5e2dfce9247d4b41023faf0016bfd1563274749; expires=Wed, 15-Jul-20 10:59:09 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+25 silly get     'cf-cache-status': 'HIT',
+25 silly get     'cache-control': 'public, max-age=300',
+25 silly get     'cf-ray': '4f73770eecd3d5fc-BOM',
+25 silly get     age: '400',
+25 silly get     etag: 'W/"5cf668e0653f59e20d4c4a532dfe98aa"',
+25 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+25 silly get     'last-modified': 'Wed, 10 Jul 2019 17:51:08 GMT',
+25 silly get     vary: 'Accept-Encoding',
+25 silly get     'x-amz-meta-rev': '412-2350029f7b2c689454791c1b26c59862',
+25 silly get     server: 'cloudflare',
+25 silly get     'content-encoding': 'gzip' } ]
+26 verbose get saving @angular/cli to C:\Users\Admin\AppData\Roaming\npm-cache\registry.npmjs.org\_40angular_252fcli\.cache.json
+27 verbose correctMkdir C:\Users\Admin\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+28 silly fetchPackageMetaData Error: No compatible version found: @angular/cli@6.11.4
+28 silly fetchPackageMetaData Valid install targets:
+28 silly fetchPackageMetaData 8.2.0-next.0, 8.1.1, 8.1.0, 8.1.0-rc.0, 8.1.0-beta.3, 8.1.0-beta.2, 8.1.0-beta.1, 8.1.0-beta.0, 8.0.6, 8.0.5, 8.0.4, 8.0.3, 8.0.2, 8.0.1, 8.0.0, 8.0.0-rc.4, 8.0.0-rc.3, 8.0.0-rc.2, 8.0.0-rc.1, 8.0.0-rc.0, 8.0.0-beta.18, 8.0.0-beta.17, 8.0.0-beta.16, 8.0.0-beta.15, 8.0.0-beta.14, 8.0.0-beta.13, 8.0.0-beta.12, 8.0.0-beta.11, 8.0.0-beta.10, 8.0.0-beta.9, 8.0.0-beta.8, 8.0.0-beta.7, 8.0.0-beta.6, 8.0.0-beta.5, 8.0.0-beta.4, 8.0.0-beta.2, 8.0.0-beta.1, 8.0.0-beta.0, 7.3.9, 7.3.8, 7.3.7, 7.3.6, 7.3.5, 7.3.4, 7.3.3, 7.3.2, 7.3.1, 7.3.0, 7.3.0-rc.0, 7.3.0-beta.0, 7.2.4, 7.2.3, 7.2.2, 7.2.1, 7.2.0, 7.2.0-rc.0, 7.2.0-beta.2, 7.2.0-beta.1, 7.2.0-beta.0, 7.1.4, 7.1.3, 7.1.2, 7.1.1, 7.1.0, 7.1.0-rc.0, 7.1.0-beta.1, 7.1.0-beta.0, 7.0.7, 7.0.6, 7.0.5, 7.0.4, 7.0.3, 7.0.2, 7.0.1, 7.0.0-rc.3, 7.0.0-rc.2, 7.0.0-rc.1, 7.0.0-rc.0, 7.0.0-beta.4, 7.0.0-beta.3, 7.0.0-beta.2, 7.0.0-beta.1, 7.0.0-beta.0, 6.2.9, 6.2.8, 6.2.7, 6.2.6, 6.2.5, 6.2.4, 6.2.3, 6.2.2, 6.2.1, 6.2.0, 6.2.0-rc.1, 6.2.0-rc.0, 6.2.0-beta.3, 6.2.0-beta.2, 6.2.0-beta.1, 6.2.0-beta.0, 6.1.5, 6.1.4, 6.1.3, 6.1.2, 6.1.1, 6.1.0, 6.1.0-rc.3, 6.1.0-rc.2, 6.1.0-rc.1, 6.1.0-rc.0, 6.1.0-beta.2, 6.1.0-beta.0, 6.0.8, 6.0.7, 6.0.5, 6.0.4, 6.0.3, 6.0.2, 6.0.1, 6.0.0, 6.0.0-rc.10, 6.0.0-rc.9, 6.0.0-rc.8, 6.0.0-rc.7, 6.0.0-rc.6, 6.0.0-rc.5, 6.0.0-rc.4, 6.0.0-rc.3, 6.0.0-rc.2, 6.0.0-rc.1, 6.0.0-rc.0, 6.0.0-beta.9, 6.0.0-beta.8, 6.0.0-beta.7, 6.0.0-beta.6, 6.0.0-beta.5, 6.0.0-beta.4, 6.0.0-beta.3, 6.0.0-beta.2, 1.7.4, 1.7.3, 1.7.2, 1.7.1, 1.7.0, 1.7.0-rc.0, 1.7.0-beta.3, 1.7.0-beta.2, 1.7.0-beta.1, 1.7.0-beta.0, 1.6.8, 1.6.7, 1.6.6, 1.6.5, 1.6.4, 1.6.3, 1.6.2, 1.6.1, 1.6.0, 1.6.0-rc.2, 1.6.0-rc.1, 1.6.0-rc.0, 1.6.0-beta.2, 1.6.0-beta.1, 1.6.0-beta.0, 1.5.6, 1.5.5, 1.5.4, 1.5.3, 1.5.2, 1.5.1, 1.5.0, 1.5.0-rc.8, 1.5.0-rc.7, 1.5.0-rc.6, 1.5.0-rc.5, 1.5.0-rc.4, 1.5.0-rc.3, 1.5.0-rc.2, 1.5.0-rc.1, 1.5.0-rc.0, 1.5.0-beta.4, 1.5.0-beta.3, 1.5.0-beta.2, 1.5.0-beta.1, 1.5.0-beta.0, 1.4.10, 1.4.9, 1.4.8, 1.4.7, 1.4.6, 1.4.5, 1.4.4, 1.4.3, 1.4.2, 1.4.1, 1.4.0, 1.4.0-rc.2, 1.4.0-rc.1, 1.4.0-rc.0, 1.4.0-beta.2, 1.4.0-beta.1, 1.4.0-beta.0, 1.3.2, 1.3.1, 1.3.0, 1.3.0-rc.5, 1.3.0-rc.4, 1.3.0-rc.3, 1.3.0-rc.2, 1.3.0-rc.1, 1.3.0-rc.0, 1.3.0-beta.1, 1.3.0-beta.0, 1.2.8, 1.2.7, 1.2.6, 1.2.5, 1.2.4, 1.2.3, 1.2.2, 1.2.1, 1.2.0, 1.2.0-rc.1, 1.2.0-rc.0, 1.2.0-beta.1, 1.2.0-beta.0, 1.1.3, 1.1.2, 1.1.1, 1.1.0, 1.1.0-rc.2, 1.1.0-rc.1, 1.1.0-rc.0, 1.1.0-beta.1, 1.1.0-beta.0, 1.0.6, 1.0.5, 1.0.4, 1.0.3, 1.0.2, 1.0.1, 1.0.0, 1.0.0-rc.4, 1.0.0-rc.3, 1.0.0-rc.2, 1.0.0-rc.1, 1.0.0-rc.0, 1.0.0-beta.33.1, 1.0.0-beta.33, 1.0.0-beta.32.3, 1.0.0-beta.32.2, 1.0.0-beta.32, 1.0.0-beta.31, 1.0.0-beta.30, 1.0.0-beta.29, 1.0.0-beta.28.3
+28 silly fetchPackageMetaData
+28 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (C:\Program Files (x86)\nodejs\node_modules\npm\lib\fetch-package-metadata.js:178:16)
+28 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\iferr\index.js:13:50
+28 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\lib\utils\pulse-till-done.js:20:8
+28 silly fetchPackageMetaData     at saved (C:\Program Files (x86)\nodejs\node_modules\npm\lib\cache\caching-client.js:174:7)
+28 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:241:18
+28 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15)
+28 silly fetchPackageMetaData  error for @angular/cli@6.11.4 { Error: No compatible version found: @angular/cli@6.11.4
+28 silly fetchPackageMetaData Valid install targets:
+28 silly fetchPackageMetaData 8.2.0-next.0, 8.1.1, 8.1.0, 8.1.0-rc.0, 8.1.0-beta.3, 8.1.0-beta.2, 8.1.0-beta.1, 8.1.0-beta.0, 8.0.6, 8.0.5, 8.0.4, 8.0.3, 8.0.2, 8.0.1, 8.0.0, 8.0.0-rc.4, 8.0.0-rc.3, 8.0.0-rc.2, 8.0.0-rc.1, 8.0.0-rc.0, 8.0.0-beta.18, 8.0.0-beta.17, 8.0.0-beta.16, 8.0.0-beta.15, 8.0.0-beta.14, 8.0.0-beta.13, 8.0.0-beta.12, 8.0.0-beta.11, 8.0.0-beta.10, 8.0.0-beta.9, 8.0.0-beta.8, 8.0.0-beta.7, 8.0.0-beta.6, 8.0.0-beta.5, 8.0.0-beta.4, 8.0.0-beta.2, 8.0.0-beta.1, 8.0.0-beta.0, 7.3.9, 7.3.8, 7.3.7, 7.3.6, 7.3.5, 7.3.4, 7.3.3, 7.3.2, 7.3.1, 7.3.0, 7.3.0-rc.0, 7.3.0-beta.0, 7.2.4, 7.2.3, 7.2.2, 7.2.1, 7.2.0, 7.2.0-rc.0, 7.2.0-beta.2, 7.2.0-beta.1, 7.2.0-beta.0, 7.1.4, 7.1.3, 7.1.2, 7.1.1, 7.1.0, 7.1.0-rc.0, 7.1.0-beta.1, 7.1.0-beta.0, 7.0.7, 7.0.6, 7.0.5, 7.0.4, 7.0.3, 7.0.2, 7.0.1, 7.0.0-rc.3, 7.0.0-rc.2, 7.0.0-rc.1, 7.0.0-rc.0, 7.0.0-beta.4, 7.0.0-beta.3, 7.0.0-beta.2, 7.0.0-beta.1, 7.0.0-beta.0, 6.2.9, 6.2.8, 6.2.7, 6.2.6, 6.2.5, 6.2.4, 6.2.3, 6.2.2, 6.2.1, 6.2.0, 6.2.0-rc.1, 6.2.0-rc.0, 6.2.0-beta.3, 6.2.0-beta.2, 6.2.0-beta.1, 6.2.0-beta.0, 6.1.5, 6.1.4, 6.1.3, 6.1.2, 6.1.1, 6.1.0, 6.1.0-rc.3, 6.1.0-rc.2, 6.1.0-rc.1, 6.1.0-rc.0, 6.1.0-beta.2, 6.1.0-beta.0, 6.0.8, 6.0.7, 6.0.5, 6.0.4, 6.0.3, 6.0.2, 6.0.1, 6.0.0, 6.0.0-rc.10, 6.0.0-rc.9, 6.0.0-rc.8, 6.0.0-rc.7, 6.0.0-rc.6, 6.0.0-rc.5, 6.0.0-rc.4, 6.0.0-rc.3, 6.0.0-rc.2, 6.0.0-rc.1, 6.0.0-rc.0, 6.0.0-beta.9, 6.0.0-beta.8, 6.0.0-beta.7, 6.0.0-beta.6, 6.0.0-beta.5, 6.0.0-beta.4, 6.0.0-beta.3, 6.0.0-beta.2, 1.7.4, 1.7.3, 1.7.2, 1.7.1, 1.7.0, 1.7.0-rc.0, 1.7.0-beta.3, 1.7.0-beta.2, 1.7.0-beta.1, 1.7.0-beta.0, 1.6.8, 1.6.7, 1.6.6, 1.6.5, 1.6.4, 1.6.3, 1.6.2, 1.6.1, 1.6.0, 1.6.0-rc.2, 1.6.0-rc.1, 1.6.0-rc.0, 1.6.0-beta.2, 1.6.0-beta.1, 1.6.0-beta.0, 1.5.6, 1.5.5, 1.5.4, 1.5.3, 1.5.2, 1.5.1, 1.5.0, 1.5.0-rc.8, 1.5.0-rc.7, 1.5.0-rc.6, 1.5.0-rc.5, 1.5.0-rc.4, 1.5.0-rc.3, 1.5.0-rc.2, 1.5.0-rc.1, 1.5.0-rc.0, 1.5.0-beta.4, 1.5.0-beta.3, 1.5.0-beta.2, 1.5.0-beta.1, 1.5.0-beta.0, 1.4.10, 1.4.9, 1.4.8, 1.4.7, 1.4.6, 1.4.5, 1.4.4, 1.4.3, 1.4.2, 1.4.1, 1.4.0, 1.4.0-rc.2, 1.4.0-rc.1, 1.4.0-rc.0, 1.4.0-beta.2, 1.4.0-beta.1, 1.4.0-beta.0, 1.3.2, 1.3.1, 1.3.0, 1.3.0-rc.5, 1.3.0-rc.4, 1.3.0-rc.3, 1.3.0-rc.2, 1.3.0-rc.1, 1.3.0-rc.0, 1.3.0-beta.1, 1.3.0-beta.0, 1.2.8, 1.2.7, 1.2.6, 1.2.5, 1.2.4, 1.2.3, 1.2.2, 1.2.1, 1.2.0, 1.2.0-rc.1, 1.2.0-rc.0, 1.2.0-beta.1, 1.2.0-beta.0, 1.1.3, 1.1.2, 1.1.1, 1.1.0, 1.1.0-rc.2, 1.1.0-rc.1, 1.1.0-rc.0, 1.1.0-beta.1, 1.1.0-beta.0, 1.0.6, 1.0.5, 1.0.4, 1.0.3, 1.0.2, 1.0.1, 1.0.0, 1.0.0-rc.4, 1.0.0-rc.3, 1.0.0-rc.2, 1.0.0-rc.1, 1.0.0-rc.0, 1.0.0-beta.33.1, 1.0.0-beta.33, 1.0.0-beta.32.3, 1.0.0-beta.32.2, 1.0.0-beta.32, 1.0.0-beta.31, 1.0.0-beta.30, 1.0.0-beta.29, 1.0.0-beta.28.3
+28 silly fetchPackageMetaData
+28 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (C:\Program Files (x86)\nodejs\node_modules\npm\lib\fetch-package-metadata.js:178:16)
+28 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\iferr\index.js:13:50
+28 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\lib\utils\pulse-till-done.js:20:8
+28 silly fetchPackageMetaData     at saved (C:\Program Files (x86)\nodejs\node_modules\npm\lib\cache\caching-client.js:174:7)
+28 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:241:18
+28 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15) code: 'ETARGET' }
+29 silly rollbackFailedOptional Starting
+30 silly rollbackFailedOptional Finishing
+31 silly runTopLevelLifecycles Finishing
+32 silly install printInstalled
+33 verbose stack Error: No compatible version found: @angular/cli@6.11.4
+33 verbose stack Valid install targets:
+33 verbose stack 8.2.0-next.0, 8.1.1, 8.1.0, 8.1.0-rc.0, 8.1.0-beta.3, 8.1.0-beta.2, 8.1.0-beta.1, 8.1.0-beta.0, 8.0.6, 8.0.5, 8.0.4, 8.0.3, 8.0.2, 8.0.1, 8.0.0, 8.0.0-rc.4, 8.0.0-rc.3, 8.0.0-rc.2, 8.0.0-rc.1, 8.0.0-rc.0, 8.0.0-beta.18, 8.0.0-beta.17, 8.0.0-beta.16, 8.0.0-beta.15, 8.0.0-beta.14, 8.0.0-beta.13, 8.0.0-beta.12, 8.0.0-beta.11, 8.0.0-beta.10, 8.0.0-beta.9, 8.0.0-beta.8, 8.0.0-beta.7, 8.0.0-beta.6, 8.0.0-beta.5, 8.0.0-beta.4, 8.0.0-beta.2, 8.0.0-beta.1, 8.0.0-beta.0, 7.3.9, 7.3.8, 7.3.7, 7.3.6, 7.3.5, 7.3.4, 7.3.3, 7.3.2, 7.3.1, 7.3.0, 7.3.0-rc.0, 7.3.0-beta.0, 7.2.4, 7.2.3, 7.2.2, 7.2.1, 7.2.0, 7.2.0-rc.0, 7.2.0-beta.2, 7.2.0-beta.1, 7.2.0-beta.0, 7.1.4, 7.1.3, 7.1.2, 7.1.1, 7.1.0, 7.1.0-rc.0, 7.1.0-beta.1, 7.1.0-beta.0, 7.0.7, 7.0.6, 7.0.5, 7.0.4, 7.0.3, 7.0.2, 7.0.1, 7.0.0-rc.3, 7.0.0-rc.2, 7.0.0-rc.1, 7.0.0-rc.0, 7.0.0-beta.4, 7.0.0-beta.3, 7.0.0-beta.2, 7.0.0-beta.1, 7.0.0-beta.0, 6.2.9, 6.2.8, 6.2.7, 6.2.6, 6.2.5, 6.2.4, 6.2.3, 6.2.2, 6.2.1, 6.2.0, 6.2.0-rc.1, 6.2.0-rc.0, 6.2.0-beta.3, 6.2.0-beta.2, 6.2.0-beta.1, 6.2.0-beta.0, 6.1.5, 6.1.4, 6.1.3, 6.1.2, 6.1.1, 6.1.0, 6.1.0-rc.3, 6.1.0-rc.2, 6.1.0-rc.1, 6.1.0-rc.0, 6.1.0-beta.2, 6.1.0-beta.0, 6.0.8, 6.0.7, 6.0.5, 6.0.4, 6.0.3, 6.0.2, 6.0.1, 6.0.0, 6.0.0-rc.10, 6.0.0-rc.9, 6.0.0-rc.8, 6.0.0-rc.7, 6.0.0-rc.6, 6.0.0-rc.5, 6.0.0-rc.4, 6.0.0-rc.3, 6.0.0-rc.2, 6.0.0-rc.1, 6.0.0-rc.0, 6.0.0-beta.9, 6.0.0-beta.8, 6.0.0-beta.7, 6.0.0-beta.6, 6.0.0-beta.5, 6.0.0-beta.4, 6.0.0-beta.3, 6.0.0-beta.2, 1.7.4, 1.7.3, 1.7.2, 1.7.1, 1.7.0, 1.7.0-rc.0, 1.7.0-beta.3, 1.7.0-beta.2, 1.7.0-beta.1, 1.7.0-beta.0, 1.6.8, 1.6.7, 1.6.6, 1.6.5, 1.6.4, 1.6.3, 1.6.2, 1.6.1, 1.6.0, 1.6.0-rc.2, 1.6.0-rc.1, 1.6.0-rc.0, 1.6.0-beta.2, 1.6.0-beta.1, 1.6.0-beta.0, 1.5.6, 1.5.5, 1.5.4, 1.5.3, 1.5.2, 1.5.1, 1.5.0, 1.5.0-rc.8, 1.5.0-rc.7, 1.5.0-rc.6, 1.5.0-rc.5, 1.5.0-rc.4, 1.5.0-rc.3, 1.5.0-rc.2, 1.5.0-rc.1, 1.5.0-rc.0, 1.5.0-beta.4, 1.5.0-beta.3, 1.5.0-beta.2, 1.5.0-beta.1, 1.5.0-beta.0, 1.4.10, 1.4.9, 1.4.8, 1.4.7, 1.4.6, 1.4.5, 1.4.4, 1.4.3, 1.4.2, 1.4.1, 1.4.0, 1.4.0-rc.2, 1.4.0-rc.1, 1.4.0-rc.0, 1.4.0-beta.2, 1.4.0-beta.1, 1.4.0-beta.0, 1.3.2, 1.3.1, 1.3.0, 1.3.0-rc.5, 1.3.0-rc.4, 1.3.0-rc.3, 1.3.0-rc.2, 1.3.0-rc.1, 1.3.0-rc.0, 1.3.0-beta.1, 1.3.0-beta.0, 1.2.8, 1.2.7, 1.2.6, 1.2.5, 1.2.4, 1.2.3, 1.2.2, 1.2.1, 1.2.0, 1.2.0-rc.1, 1.2.0-rc.0, 1.2.0-beta.1, 1.2.0-beta.0, 1.1.3, 1.1.2, 1.1.1, 1.1.0, 1.1.0-rc.2, 1.1.0-rc.1, 1.1.0-rc.0, 1.1.0-beta.1, 1.1.0-beta.0, 1.0.6, 1.0.5, 1.0.4, 1.0.3, 1.0.2, 1.0.1, 1.0.0, 1.0.0-rc.4, 1.0.0-rc.3, 1.0.0-rc.2, 1.0.0-rc.1, 1.0.0-rc.0, 1.0.0-beta.33.1, 1.0.0-beta.33, 1.0.0-beta.32.3, 1.0.0-beta.32.2, 1.0.0-beta.32, 1.0.0-beta.31, 1.0.0-beta.30, 1.0.0-beta.29, 1.0.0-beta.28.3
+33 verbose stack
+33 verbose stack     at pickVersionFromRegistryDocument (C:\Program Files (x86)\nodejs\node_modules\npm\lib\fetch-package-metadata.js:178:16)
+33 verbose stack     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\iferr\index.js:13:50
+33 verbose stack     at C:\Program Files (x86)\nodejs\node_modules\npm\lib\utils\pulse-till-done.js:20:8
+33 verbose stack     at saved (C:\Program Files (x86)\nodejs\node_modules\npm\lib\cache\caching-client.js:174:7)
+33 verbose stack     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:241:18
+33 verbose stack     at FSReqWrap.oncomplete (fs.js:123:15)
+34 verbose cwd C:\Users\Admin\Downloads\fsd-task-manager-ui-master
+35 error Windows_NT 6.1.7601
+36 error argv "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "@angular/cli@6.11.4"
+37 error node v6.11.4
+38 error npm  v3.10.10
+39 error code ETARGET
+40 error notarget No compatible version found: @angular/cli@6.11.4
+40 error notarget Valid install targets:
+40 error notarget 8.2.0-next.0, 8.1.1, 8.1.0, 8.1.0-rc.0, 8.1.0-beta.3, 8.1.0-beta.2, 8.1.0-beta.1, 8.1.0-beta.0, 8.0.6, 8.0.5, 8.0.4, 8.0.3, 8.0.2, 8.0.1, 8.0.0, 8.0.0-rc.4, 8.0.0-rc.3, 8.0.0-rc.2, 8.0.0-rc.1, 8.0.0-rc.0, 8.0.0-beta.18, 8.0.0-beta.17, 8.0.0-beta.16, 8.0.0-beta.15, 8.0.0-beta.14, 8.0.0-beta.13, 8.0.0-beta.12, 8.0.0-beta.11, 8.0.0-beta.10, 8.0.0-beta.9, 8.0.0-beta.8, 8.0.0-beta.7, 8.0.0-beta.6, 8.0.0-beta.5, 8.0.0-beta.4, 8.0.0-beta.2, 8.0.0-beta.1, 8.0.0-beta.0, 7.3.9, 7.3.8, 7.3.7, 7.3.6, 7.3.5, 7.3.4, 7.3.3, 7.3.2, 7.3.1, 7.3.0, 7.3.0-rc.0, 7.3.0-beta.0, 7.2.4, 7.2.3, 7.2.2, 7.2.1, 7.2.0, 7.2.0-rc.0, 7.2.0-beta.2, 7.2.0-beta.1, 7.2.0-beta.0, 7.1.4, 7.1.3, 7.1.2, 7.1.1, 7.1.0, 7.1.0-rc.0, 7.1.0-beta.1, 7.1.0-beta.0, 7.0.7, 7.0.6, 7.0.5, 7.0.4, 7.0.3, 7.0.2, 7.0.1, 7.0.0-rc.3, 7.0.0-rc.2, 7.0.0-rc.1, 7.0.0-rc.0, 7.0.0-beta.4, 7.0.0-beta.3, 7.0.0-beta.2, 7.0.0-beta.1, 7.0.0-beta.0, 6.2.9, 6.2.8, 6.2.7, 6.2.6, 6.2.5, 6.2.4, 6.2.3, 6.2.2, 6.2.1, 6.2.0, 6.2.0-rc.1, 6.2.0-rc.0, 6.2.0-beta.3, 6.2.0-beta.2, 6.2.0-beta.1, 6.2.0-beta.0, 6.1.5, 6.1.4, 6.1.3, 6.1.2, 6.1.1, 6.1.0, 6.1.0-rc.3, 6.1.0-rc.2, 6.1.0-rc.1, 6.1.0-rc.0, 6.1.0-beta.2, 6.1.0-beta.0, 6.0.8, 6.0.7, 6.0.5, 6.0.4, 6.0.3, 6.0.2, 6.0.1, 6.0.0, 6.0.0-rc.10, 6.0.0-rc.9, 6.0.0-rc.8, 6.0.0-rc.7, 6.0.0-rc.6, 6.0.0-rc.5, 6.0.0-rc.4, 6.0.0-rc.3, 6.0.0-rc.2, 6.0.0-rc.1, 6.0.0-rc.0, 6.0.0-beta.9, 6.0.0-beta.8, 6.0.0-beta.7, 6.0.0-beta.6, 6.0.0-beta.5, 6.0.0-beta.4, 6.0.0-beta.3, 6.0.0-beta.2, 1.7.4, 1.7.3, 1.7.2, 1.7.1, 1.7.0, 1.7.0-rc.0, 1.7.0-beta.3, 1.7.0-beta.2, 1.7.0-beta.1, 1.7.0-beta.0, 1.6.8, 1.6.7, 1.6.6, 1.6.5, 1.6.4, 1.6.3, 1.6.2, 1.6.1, 1.6.0, 1.6.0-rc.2, 1.6.0-rc.1, 1.6.0-rc.0, 1.6.0-beta.2, 1.6.0-beta.1, 1.6.0-beta.0, 1.5.6, 1.5.5, 1.5.4, 1.5.3, 1.5.2, 1.5.1, 1.5.0, 1.5.0-rc.8, 1.5.0-rc.7, 1.5.0-rc.6, 1.5.0-rc.5, 1.5.0-rc.4, 1.5.0-rc.3, 1.5.0-rc.2, 1.5.0-rc.1, 1.5.0-rc.0, 1.5.0-beta.4, 1.5.0-beta.3, 1.5.0-beta.2, 1.5.0-beta.1, 1.5.0-beta.0, 1.4.10, 1.4.9, 1.4.8, 1.4.7, 1.4.6, 1.4.5, 1.4.4, 1.4.3, 1.4.2, 1.4.1, 1.4.0, 1.4.0-rc.2, 1.4.0-rc.1, 1.4.0-rc.0, 1.4.0-beta.2, 1.4.0-beta.1, 1.4.0-beta.0, 1.3.2, 1.3.1, 1.3.0, 1.3.0-rc.5, 1.3.0-rc.4, 1.3.0-rc.3, 1.3.0-rc.2, 1.3.0-rc.1, 1.3.0-rc.0, 1.3.0-beta.1, 1.3.0-beta.0, 1.2.8, 1.2.7, 1.2.6, 1.2.5, 1.2.4, 1.2.3, 1.2.2, 1.2.1, 1.2.0, 1.2.0-rc.1, 1.2.0-rc.0, 1.2.0-beta.1, 1.2.0-beta.0, 1.1.3, 1.1.2, 1.1.1, 1.1.0, 1.1.0-rc.2, 1.1.0-rc.1, 1.1.0-rc.0, 1.1.0-beta.1, 1.1.0-beta.0, 1.0.6, 1.0.5, 1.0.4, 1.0.3, 1.0.2, 1.0.1, 1.0.0, 1.0.0-rc.4, 1.0.0-rc.3, 1.0.0-rc.2, 1.0.0-rc.1, 1.0.0-rc.0, 1.0.0-beta.33.1, 1.0.0-beta.33, 1.0.0-beta.32.3, 1.0.0-beta.32.2, 1.0.0-beta.32, 1.0.0-beta.31, 1.0.0-beta.30, 1.0.0-beta.29, 1.0.0-beta.28.3
+41 error notarget This is most likely not a problem with npm itself.
+41 error notarget In most cases you or one of your dependencies are requesting
+41 error notarget a package version that doesn't exist.
+42 verbose exit [ 1, true ]
